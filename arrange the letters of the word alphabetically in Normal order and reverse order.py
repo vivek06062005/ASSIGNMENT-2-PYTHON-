@@ -1,0 +1,5 @@
+word = input("Enter the word: ")
+normal_order = sorted(word)
+reverse_order = sorted(word, reverse=True)
+print("Alphabetical Order Normal:", ' '.join(normal_order))
+print("Alphabetical Order Reverse:", ' '.join(reverse_order))
